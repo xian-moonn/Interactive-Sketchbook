@@ -2,8 +2,8 @@
 for now, you can leave these alone */
 
 * {
-	margin: auto;
-	padding: auto;
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
 
@@ -119,29 +119,112 @@ go ahead and play with these, can you get the colors to change? What do you noti
 	font-style: italic;
 }
 
-body {
-	color: #26241c;
-	background-color: #f2f0d8;
+html {
+	background-color: #000000;
 }
 
-nav {
-	text-align: center;
-	background: black;
-	padding: 10px;
+body {
+	width: 48%;
+	margin: 50px auto;
+	padding: 0px;
+	background-color: #141414;
+	border-radius: 10px;
+	font-family: "Poppins", sans-serif;
 }
-nav a {
-	color: white;
-	margin: 50px;
+
+/* header nav */
+
+.headernav {
+	text-align: center;
+}
+.headernav a {
+	color: #ffffff;
+	width: 140px;
+	margin: 5px 10px;
+	padding: 10px 20px;
 	text-decoration: none;
 	font-size: 20px;
+	border: 2.5px solid #ffffff;
+	border-radius: 10px;
+	display: inline-block;
+	transition: transform 0.2s ease;
 }
 
-section {
-	color: #615e3f;
-	background-color: #e5e2be;
-	margin: 70px;
-	padding: 50px;
-	border-radius: 20px;
-	font-size: 25px;
-	font-family: "Poppins", sans-serif;
+.headernav a:hover {
+	color: #a5c0ed;
+	border: 2px solid #a5c0ed;
+	transform: scale(0.95);
+}
+
+/* footer nav */
+
+.footernav {
+	text-align: center;
+}
+.footernav a {
+	color: #ffffff;
+	margin: 5px 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border: 2.5px solid #ffffff;
+	border-radius: 10px;
+	display: inline-block;
+	transition: transform 0.2s ease;
+}
+
+.footernav a:hover {
+	color: #a5c0ed;
+	border: 2px solid #a5c0ed;
+	transform: scale(0.95);
+}
+
+img {
+	display: block;
+	width: 70%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+#homeimg {
+	background-color: #ffffff00;
+	margin: 0px 45px 60px;
+}
+
+h1 {
+	color: #dedede;
+	text-align: center;
+}
+
+h2 {
+	color: #cccccc;
+	margin: 0px;
+	padding: 30px;
+	line-height: 50px;
+	text-align: center;
+}
+
+p {
+	color: #e0e0e0;
+	font-size: 15px;
+	text-align: left;
+	margin: 0px;
+	padding: 30px 130px;
+	line-height: 50px;
+}
+
+.thickdivider {
+	border: none;
+	height: 30px;
+	background-color: #808080;
+	border-top: 5px solid #000000;
+	border-bottom: 5px solid #000000;
+	margin: 0px 50px;
+}
+
+.normaldivider {
+	border: none;
+	height: 2px;
+	background-color: #909090;
+	margin: 0px 120px;
 }
