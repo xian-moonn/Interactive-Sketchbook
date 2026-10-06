@@ -1,0 +1,83 @@
+/* first, let's follow best practices and cancel out default margins with the universal selector */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* now we can control our margins ourselves, so lets give the body a 50px margin on the left and right; and a 25px margin on the top and bottom.
+
+can you write it in shorthand?*/
+
+body {
+	margin: 25px 50px;
+	font-family: "Indie Flower", cursive;
+}
+
+/* Find a custom font on Google Fonts and add it to the HTML head and your CSS: make sure you add the links and the font-family */
+
+.indie-flower-regular {
+	font-family: "Indie Flower", cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Style the h1:
+   10px margin on the bottom
+   10px padding on the top and bottom
+   15px padding on the right and left
+   and a solid black border that is 1px thick
+   center the text and make it uppercase in CSS (do not retype it as uppercase in your HTML)
+   add a background color with 50% opacity
+*/
+h1 {
+	margin-bottom: 10px;
+	padding: 10px 15px;
+	border: 1px solid black;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(255, 192, 203, 0.5);
+}
+
+h2 {
+	margin-top: 2.5%;
+	margin-bottom: 2.55%;
+	background-color: yellow;
+	color: black;
+	padding: 15px 23px 36px 24px;
+	border: 15px dotted black;
+}
+
+p {
+	background-color: blue;
+	color: white;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+code {
+	background-color: white;
+	color: green;
+	border: 1px solid black;
+	padding: 1px;
+}
+
+li {
+	background-color: green;
+	color: white;
+	padding: 15px;
+	border: 1px solid red;
+	list-style: none;
+}
+
+a {
+	background-color: yellow;
+	font-size: 36px;
+	color: black;
+	border: 15px solid black;
+	text-decoration: none;
+	display: block;
+}
+
+.blockTo {
+	display: inline;
+}
