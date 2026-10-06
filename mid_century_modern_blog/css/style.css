@@ -1,0 +1,222 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+* {
+	font-family: josefin sans;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a {
+	color: inherit;
+}
+
+html {
+	background-color: #f3994d;
+}
+
+body {
+	width: 60%;
+	margin: auto;
+	padding: auto;
+	background-color: #cde3f1;
+	padding-top: 20px;
+}
+
+nav {
+	font-size: 16px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+nav a {
+	color: #047f8c;
+	padding: 60px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 37px;
+	font-weight: 600;
+	text-align: center;
+}
+
+h1 a {
+	color: #3a400c;
+	font-size: 37px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 0px;
+}
+
+h2 {
+	color: #000000;
+	font-size: 22.5px;
+	font-weight: 700;
+	font-family: lato;
+}
+
+h3 {
+	color: #047f8c;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+p {
+	color: #000000;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: lato;
+	text-align: justify;
+}
+
+section {
+	margin: 40px;
+	padding: 5px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
+
+img {
+	width: 100%;
+	margin: auto;
+}
+
+aside {
+	margin-top: 50px;
+	margin: 40px;
+	margin-bottom: 0px;
+}
+
+aside img {
+	width: 27%;
+}
+
+ul {
+	color: #3a400c;
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 37px;
+	padding: 0;
+}
+
+ul a {
+	color: #3a400c;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: lowercase;
+	padding: 0;
+	margin-bottom: 0px;
+}
+
+footer {
+	background-color: #04adbf;
+	color: #3a400c;
+	text-align: center;
+	margin: auto;
+	padding: 0px;
+}
+
+.social-links {
+	color: #3a400c;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.social-links a {
+	color: #3a400c;
+	padding: 15px;
+}
+
+#sp {
+	background-color: #04adbf;
+	color: #3a400c;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: lato;
+	text-transform: lowercase;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+hr {
+	width: 97%;
+}
