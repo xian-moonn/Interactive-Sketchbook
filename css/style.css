@@ -215,9 +215,20 @@ p {
 	color: #e0e0e0;
 	font-size: 15px;
 	text-align: left;
-	margin: 30px 0px;
+	margin: 0px 0px;
 	padding: 0px 130px;
 	line-height: 50px;
+}
+
+code {
+	background-color: #3d3d3d;
+	color: #ffffff;
+	font-size: 15px;
+	text-align: left;
+	margin: 0px 130px;
+	padding: 5px;
+	line-height: 50px;
+	border-radius: 5px;
 }
 
 .thickdivider {
@@ -233,6 +244,13 @@ p {
 	border: none;
 	height: 2px;
 	background-color: #909090;
+	margin: 0px 120px;
+}
+
+.cleardivider {
+	border: none;
+	height: 25px;
+	background-color: #00000000;
 	margin: 0px 120px;
 }
 
