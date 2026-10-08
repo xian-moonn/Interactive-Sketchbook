@@ -147,12 +147,12 @@ body {
 	border: 2.5px solid #ffffff;
 	border-radius: 10px;
 	display: inline-block;
-	transition: transform 0.2s ease;
+	transition: transform 0.75s ease;
 }
 
 .headernav a:hover {
 	color: #a5c0ed;
-	border: 2px solid #a5c0ed;
+	border: 2.5px solid #a5c0ed;
 	transform: scale(0.95);
 }
 
@@ -170,12 +170,36 @@ body {
 	border: 2.5px solid #ffffff;
 	border-radius: 10px;
 	display: inline-block;
-	transition: transform 0.2s ease;
+	transition: transform 0.75s ease;
 }
 
 .footernav a:hover {
 	color: #a5c0ed;
-	border: 2px solid #a5c0ed;
+	border: 2.5px solid #a5c0ed;
+	transform: scale(0.95);
+}
+
+.projectsnav {
+	text-align: center;
+	justify-self: center;
+	width: 35%;
+}
+.projectsnav a {
+	color: #cccccc;
+	margin: 20px 10px;
+	padding: 7px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border: 1.5px solid #cccccc;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.75s ease;
+}
+
+.projectsnav a:hover {
+	color: #a5c0ed;
+	border: 1.5px solid #a5c0ed;
 	transform: scale(0.95);
 }
 
@@ -250,6 +274,13 @@ code {
 .cleardivider {
 	border: none;
 	height: 25px;
+	background-color: #00000000;
+	margin: 0px 120px;
+}
+
+.smallcleardivider {
+	border: none;
+	height: 10px;
 	background-color: #00000000;
 	margin: 0px 120px;
 }
