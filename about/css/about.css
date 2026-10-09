@@ -2,18 +2,33 @@
 for now, you can leave these alone */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 /* Css is how we add all things style, below there are two simple styles added
 go ahead and play with these, can you get the colors to change? What do you notice?
  */
 
-body {
-
-    color: #26241C;
-    background-color: #F2F0D8;
+#aboutOne {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 70px;
+	gap: 30px;
 }
 
+#aboutvid {
+	width: 50%;
+	border-radius: 15px;
+}
+
+#aboutme {
+	width: 50%;
+	color: #e0e0e0;
+	font-size: 15px;
+	text-align: left;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	line-height: 50px;
+}
