@@ -1,0 +1,138 @@
+/* styles already given to you: take a look at the @font-face, this is how we add a custom font to our css. the font file is inside the fonts folder within the root folder structure */
+
+@font-face {
+	font-family: fleetwoodMac;
+	src: url("../fonts/fleetwoodMac.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2ebdc;
+	color: #0d0d0d;
+	font-family: "fleetwoodMac", sans-serif;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 36px;
+	letter-spacing: 5px;
+	text-align: left;
+}
+
+p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 22px;
+	text-transform: capitalize;
+}
+
+li {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	line-height: 22px;
+	letter-spacing: 5px;
+}
+
+#info {
+	font-size: 16px;
+	text-transform: none;
+	margin-bottom: 5px;
+}
+
+ul {
+	margin-left: 40px;
+}
+
+header,
+footer {
+	margin: 5px;
+	padding: 25px;
+	border: 2px solid #0d0d0d;
+	border-radius: 8px;
+	background: #0d0d0d;
+	color: #ffffff;
+}
+
+img {
+	max-width: 100%;
+	border: 0.5px solid #0d0d0d;
+}
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
+
+/*
+INSTRUCTIONS:
+STEPS 1, 2 & 3 are in the index.html file
+*/
+
+#content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	margin: 40px;
+}
+
+#lyrics {
+	width: 35%;
+}
+
+#album {
+	width: 25%;
+}
+
+img {
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+#reflection {
+	margin: 1.5%;
+}
+/* 4. Add display: flex; to flex-container */
+/* 5. Add flex-direction: row; to flex-container; */
+/* 6. Give each column wrapper (flex item) a width in percentages, adjust margin and padding so that it is visually appealing */
+/* 
+pro-tip: it is easier to change the background color/border of individual boxes to help clarify what you are working on and to make sure you are targeting the correct html tag */
+
+/* 7. BONUS: look at the heirarchy of the typography and think about the rules in regard to how many times certain tags should be on the page and correct the errors */
+
+/* Flex container (hint this is a parent container)*/
+
+/* Flex item (left column hint-this is a child container) */
+
+/* Flex item (right column hint-this is a child container) */
+
+.headernav {
+	text-align: center;
+}
+.headernav a {
+	color: #000000;
+	width: 140px;
+	margin: 5px 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 30px;
+	border: 2.5px solid #000000;
+	border-radius: 10px;
+	display: inline-block;
+	transition: transform 0.75s ease;
+}
+
+.headernav a:hover {
+	color: #a5c0ed;
+	border: 2.5px solid #a5c0ed;
+	transform: scale(0.95);
+}

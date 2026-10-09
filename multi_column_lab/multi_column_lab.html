@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Multi Column Layout Lab</title>
+		<link
+			rel="stylesheet"
+			href="css/style.css"
+		/>
+	</head>
+	<body>
+		<br />
+
+		<nav class="headernav">
+			<a href="../index.html">Home</a>
+			<a href="../about/about.html">About</a>
+			<a href="../inspo/inspo.html">Inspo</a>
+			<a href="../projects/projects.html">Projects</a>
+			<a href="../checkpoint_one/checkpoint_one.html">Notes</a>
+		</nav>
+		<br />
+
+		<header>
+			<h1>Fleetwood Mac -- Dont Stop</h1>
+		</header>
+
+		<!-- #1 wrap the content with a div -->
+		<div id="content">
+			<!-- #2 wrap the lyrics with a div -->
+			<div id="lyrics">
+				<h2>Lyrics</h2>
+				<!-- <br> -->
+				<p>
+					If you wake up and don't want to smile<br />
+					If it takes just a little while<br />
+					Open your eyes and look at the day<br />
+					You'll see things in a different way<br />
+					<br />
+					Don't stop thinking about tomorrow<br />
+					Don't stop, it'll soon be here<br />
+					It'll be better than before<br />
+					Yesterday's gone, yesterday's gone<br />
+					<br />
+					Why not think about times to come<br />
+					And not about the things that you've done<br />
+					If your life was bad to you<br />
+					Just think what tomorrow will do<br /><br />
+					Don't stop thinking about tomorrow<br />
+					Don't stop, it'll soon be here<br />
+					It'll be better than before<br />
+					Yesterday's gone, yesterday's gone<br /><br />
+					All I want is to see you smile<br />
+					If it takes just a little while<br />
+					I know you don't believe that it's true<br />
+					I never meant any harm to you<br /><br />
+					Don't stop thinking about tomorrow<br />
+					Don't stop, it'll soon be here<br />
+					It'll be better than before<br />
+					Yesterday's gone, yesterday's gone<br /><br />
+					Don't stop thinking about tomorrow<br />
+					Don't stop, it'll soon be here<br />
+					It'll be better than before<br />
+					Yesterday's gone, yesterday's gone<br /><br />
+					don't you look back<br />
+					(Ooh) don't you look back<br />
+					(Ooh) don't you look back<br />
+					(Ooh) don't you look back<br />
+				</p>
+			</div>
+
+			<!-- #3 Wrap the album info with another div  -->
+			<div id="album">
+				<h2>Album Info</h2>
+				<br />
+				<img
+					src="img/rumours.jpg"
+					alt="Album cover for Fleetwood Mac's Rumours, showing a man and a woman holding hands, with the woman wearing a flowing black dress and the man resting one foot on a small stool."
+				/>
+				<p id="info">
+					Rumours is the eleventh studio album by<br />
+					British-American rock band Fleetwood Mac<br />but only the second with
+					Buckingham & Nicks
+				</p>
+				<ul>
+					<li><strong>Album:</strong> Rumours</li>
+					<li><strong>Release Date:</strong> February 4, 1977</li>
+				</ul>
+			</div>
+		</div>
+
+		<footer>
+			<h2>lyrics and music by Christine McVie</h2>
+		</footer>
+
+		<br />
+		<hr />
+		<p id="reflection">
+			I determined the elements that should be in the flex container when you
+			want to control and put your item in a row or column. I think the #content
+			is the parent container and the #lyrics and #album became the flex items.
+			Before applying the display: flex, it stacked vertically like normal block
+			elements. After applying display: flex, it changed into rows. Changing the
+			widths controlled how much space each column took. Margin and padding
+			changed the spacing around and inside the columns. If the widths were too
+			large, the layout would wrap or overflow. At first I was so confused about
+			the font, because I saw in the css it is connected to the right place.
+			Then when I looked at the go live page, the font is the default font and
+			not the font selected in css. I was really confused about this part, but
+			then I tried to retype the path and realized that I needed to add the ../
+			at the start. So this is how I solved the problem. I noticed that the
+			image’s alt text is short so I changed it. We learned how to write an alt
+			text in an earlier module. I wonder if flexbox can make the text smaller
+			when changing the window size, so no matter on what device the aesthetic
+			is consistent.
+		</p>
+	</body>
+</html>
