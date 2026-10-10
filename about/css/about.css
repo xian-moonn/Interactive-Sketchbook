@@ -32,3 +32,12 @@ go ahead and play with these, can you get the colors to change? What do you noti
 	padding: 0px 0px;
 	line-height: 50px;
 }
+
+#aboutlink a {
+	color: #a5c0ed;
+}
+
+#aboutlink a:hover {
+	color: #ffffff;
+	transition: color 0.5s ease;
+}
