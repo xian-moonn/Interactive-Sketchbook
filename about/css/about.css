@@ -14,7 +14,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	margin: 0px 70px;
+	margin: 30px 70px;
 	gap: 30px;
 }
 

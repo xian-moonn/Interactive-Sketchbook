@@ -1,19 +1,64 @@
-/* the * indicates universal styles, we will get into that later in the semester
-for now, you can leave these alone */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-/* Css is how we add all things style, below there are two simple styles added
-go ahead and play with these, can you get the colors to change? What do you notice?
- */
-
-body {
-
-    color: #26241C;
-    background-color: #F2F0D8;
+.inspothree {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin: 30px 70px;
+	gap: 50px;
 }
 
+article {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 50%;
+}
+
+.inspoimg {
+	display: block;
+	width: 100%;
+	margin: 0px;
+	border-radius: 15px;
+}
+
+.inspop {
+	color: #e0e0e0;
+	font-size: 15px;
+	text-align: center;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	line-height: 50px;
+}
+
+.inspoMiniTitles {
+	color: #cccccc;
+	font-size: 25px;
+	font-weight: 700;
+	margin: 0px 0px;
+	padding: 0px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.inspoMiniTitles a {
+	color: #cccccc;
+	font-size: 25px;
+	font-weight: 700;
+	margin: 0px 0px;
+	padding: 0px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	transition: transform 0.75s ease;
+}
+
+.inspoMiniTitles a:hover {
+	color: #a5c0ed;
+	transform: scale(0.95);
+	text-decoration: underline;
+}
