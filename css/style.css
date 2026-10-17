@@ -121,13 +121,14 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 html {
 	background-color: #000000;
+	background-image: url(../img/snowfall.gif);
 }
 
 body {
 	width: 48%;
 	margin: 50px auto;
 	padding: 0px;
-	background-color: #141414;
+	background-color: #141414e6;
 	border-radius: 10px;
 	font-family: "Poppins", sans-serif;
 }
@@ -204,6 +205,12 @@ body {
 }
 
 img {
+	width: 100%;
+	margin: auto;
+	border-radius: 15px;
+}
+
+#homeimg img {
 	display: block;
 	width: 70%;
 	margin: auto;
