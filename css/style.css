@@ -121,6 +121,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 html {
 	background-color: #000000;
+	/* background-color: #141414; */
 	background-image: url(../img/snowfall.gif);
 }
 
@@ -128,6 +129,7 @@ body {
 	width: 48%;
 	margin: 50px auto;
 	padding: 0px;
+	/* background-color: #141414; */
 	background-color: #141414e6;
 	border-radius: 10px;
 	font-family: "Poppins", sans-serif;
@@ -257,9 +259,9 @@ code {
 	font-size: 15px;
 	text-align: left;
 	margin: 0px 130px;
-	padding: 5px;
+	padding: 4px 8px;
 	line-height: 50px;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
 .thickdivider {
