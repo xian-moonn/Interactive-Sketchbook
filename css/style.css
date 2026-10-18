@@ -138,8 +138,14 @@ body {
 /* header nav */
 
 .headernav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
+
 .headernav a {
 	color: #ffffff;
 	width: 140px;
@@ -149,7 +155,7 @@ body {
 	font-size: 20px;
 	border: 2.5px solid #ffffff;
 	border-radius: 10px;
-	display: inline-block;
+
 	transition: transform 0.75s ease;
 }
 
@@ -314,4 +320,10 @@ code {
 
 #backtotop a:hover {
 	transform: scale(0.95);
+}
+
+#homeLayout {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

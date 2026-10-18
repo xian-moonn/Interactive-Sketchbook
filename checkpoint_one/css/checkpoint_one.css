@@ -101,7 +101,7 @@
 
 .rightarrow {
 	display: flex;
-	width: 0%;
+	width: auto;
 	margin: 0px 0px;
 	text-align: center;
 	justify-content: center;
