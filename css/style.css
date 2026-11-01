@@ -1,5 +1,15 @@
-/* the * indicates universal styles, we will get into that later in the semester
-for now, you can leave these alone */
+/* 
+  --------------------------------------
+ |    ˚₊‧꒰ა  UNIVERSAL STYLES  ໒꒱ ‧₊˚    |
+  --------------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
 
 * {
 	margin: 0;
@@ -7,9 +17,18 @@ for now, you can leave these alone */
 	box-sizing: border-box;
 }
 
-/* Css is how we add all things style, below there are two simple styles added
-go ahead and play with these, can you get the colors to change? What do you notice?
- */
+/* 
+  ---------------------------
+ |    ˚₊‧꒰ა  FONTS  ໒꒱ ‧₊˚    |
+  ---------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
 
 .poppins-thin {
 	font-family: "Poppins", sans-serif;
@@ -119,6 +138,19 @@ go ahead and play with these, can you get the colors to change? What do you noti
 	font-style: italic;
 }
 
+/* 
+  -----------------------------------
+ |    ˚₊‧꒰ა  PAGE SETTINGS  ໒꒱ ‧₊˚    |
+  -----------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
+
 html {
 	background-color: #000000;
 	/* background-color: #141414; */
@@ -135,7 +167,18 @@ body {
 	font-family: "Poppins", sans-serif;
 }
 
-/* header nav */
+/* 
+  --------------------------------
+ |    ˚₊‧꒰ა  HEADER NAV  ໒꒱ ‧₊˚    |
+  --------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
 
 .headernav {
 	display: flex;
@@ -165,28 +208,18 @@ body {
 	transform: scale(0.95);
 }
 
-/* footer nav */
-
-/* .footernav {
-	text-align: center;
-}
-.footernav a {
-	color: #ffffff;
-	margin: 5px 10px;
-	padding: 10px 20px;
-	text-decoration: none;
-	font-size: 20px;
-	border: 2.5px solid #ffffff;
-	border-radius: 10px;
-	display: inline-block;
-	transition: transform 0.75s ease;
-}
-
-.footernav a:hover {
-	color: #a5c0ed;
-	border: 2.5px solid #a5c0ed;
-	transform: scale(0.95);
-} */
+/* 
+  ---------------------------------
+ |    ˚₊‧꒰ა  PROJECT NAV  ໒꒱ ‧₊˚    |
+  ---------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
 
 .projectsnav {
 	text-align: center;
@@ -212,6 +245,19 @@ body {
 	transform: scale(0.95);
 }
 
+/* 
+  ----------------------------
+ |    ˚₊‧꒰ა  IMAGES  ໒꒱ ‧₊˚    |
+  ----------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
+
 img {
 	width: 100%;
 	margin: auto;
@@ -229,6 +275,19 @@ img {
 	background-color: #ffffff00;
 	margin: 0px 45px 60px;
 }
+
+/* 
+  ------------------------------------
+ |    ˚₊‧꒰ა  DIFFERENT TEXT  ໒꒱ ‧₊˚    |
+  ------------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
 
 h1 {
 	color: #dedede;
@@ -253,6 +312,7 @@ h3 {
 p {
 	color: #e0e0e0;
 	font-size: 15px;
+	/* font-size: clamp(10px, 1vw, 20px); */
 	text-align: left;
 	margin: 0px 0px;
 	padding: 0px 130px;
@@ -269,6 +329,19 @@ code {
 	line-height: 50px;
 	border-radius: 3px;
 }
+
+/* 
+  ------------------------------
+ |    ˚₊‧꒰ა  DIVIDERS  ໒꒱ ‧₊˚    |
+  ------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
 
 .thickdivider {
 	border: none;
@@ -300,6 +373,19 @@ code {
 	margin: 0px 120px;
 }
 
+/* 
+  ---------------------------
+ |    ˚₊‧꒰ა  EXTRA  ໒꒱ ‧₊˚    |
+  ---------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
+
 #backtotop {
 	text-align: center;
 }
@@ -326,4 +412,44 @@ code {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+/* 
+  --------------------------------------------
+ |    ˚₊‧꒰ა  DIFFERENT SCREEN SIZES  ໒꒱ ‧₊˚    |
+  --------------------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
+
+@media (min-width: 600px) {
+	body {
+		/* background-color: violet; */
+		width: 90%;
+		margin: 50px auto;
+		padding: 0px;
+	}
+}
+
+@media only screen and (min-width: 980px) {
+	body {
+		/* background-color: brown; */
+		width: 865px;
+		margin: 50px auto;
+		padding: 0px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	body {
+		/* background-color: bisque; */
+		width: 1200px;
+		margin: 50px auto;
+		padding: 0px;
+	}
 }
