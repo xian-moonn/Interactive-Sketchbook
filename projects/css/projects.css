@@ -1,0 +1,36 @@
+/* 
+  ---------------------------------
+ |    ˚₊‧꒰ა  PROJECT NAV  ໒꒱ ‧₊˚    |
+  ---------------------------------
+	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
+	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
+   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
+	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
+	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
+	　　.  ݁　　　  ݁
+	　　. 
+*/
+
+.projectsnav {
+	text-align: center;
+	justify-self: center;
+	width: 35%;
+}
+.projectsnav a {
+	color: #cccccc;
+	margin: 20px 10px;
+	padding: 7px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border: 1.5px solid #cccccc;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.75s ease;
+}
+
+.projectsnav a:hover {
+	color: #a5c0ed;
+	border: 1.5px solid #a5c0ed;
+	transform: scale(0.95);
+}

@@ -209,43 +209,6 @@ body {
 }
 
 /* 
-  ---------------------------------
- |    ˚₊‧꒰ა  PROJECT NAV  ໒꒱ ‧₊˚    |
-  ---------------------------------
-	┆　 ┆ 　 ┆ 　 ┆ 　 ┆
-	┆　 ┆  ࣪˖☆ ࣪⭑  ┆ ݁˖.☆ . ݁ ˖ 
-   ☆⊹ ࣪ ┆ ˖ ࣪　⊹ ࣪ ★ ⋆.˚  ⊹ ࣪
-	࣪ ˖⋆˚★ ₊ ⊹　  ࣪˖ ࣪ ₊  ࣪ ˖　
-	. ݁　⊹ ࣪ ˖　　　 ࣪ ˖
-	　　.  ݁　　　  ݁
-	　　. 
-*/
-
-.projectsnav {
-	text-align: center;
-	justify-self: center;
-	width: 35%;
-}
-.projectsnav a {
-	color: #cccccc;
-	margin: 20px 10px;
-	padding: 7px 20px;
-	text-decoration: none;
-	font-size: 20px;
-	border: 1.5px solid #cccccc;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
-	transition: transform 0.75s ease;
-}
-
-.projectsnav a:hover {
-	color: #a5c0ed;
-	border: 1.5px solid #a5c0ed;
-	transform: scale(0.95);
-}
-
-/* 
   ----------------------------
  |    ˚₊‧꒰ა  IMAGES  ໒꒱ ‧₊˚    |
   ----------------------------
@@ -430,7 +393,8 @@ code {
 
 @media (max-width: 600px) {
 	body {
-		background-color: violet;
+		/* background-color: violet; */
+		background-color: #141414e6;
 		width: 90%;
 		margin: 50px auto;
 		padding: 0px;
@@ -452,7 +416,8 @@ code {
 
 @media only screen and (min-width: 600px) {
 	body {
-		background-color: rgb(121, 201, 120);
+		/* background-color: rgb(121, 201, 120); */
+		background-color: #141414e6;
 		width: 90%;
 		margin: 50px auto;
 		padding: 0px;
