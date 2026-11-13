@@ -1,0 +1,183 @@
+/* ======================================
+   Global CSS Reset
+====================================== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ==========================================================================
+   body override adjustments for this page
+  ========================================================================== */
+
+body {
+	padding: 80px;
+	background-image: linear-gradient(#191970, #333333, #000000);
+	height: 100vh;
+	color: white;
+	font-family: "futura-pt", sans-serif;
+	text-align: center;
+	position: relative;
+}
+
+/* instructions are embedded within this CSS file for the homework assignment */
+
+.circle {
+	background-color: #f6f1d5;
+	position: relative;
+	border-radius: 50%;
+	/* the border-radius property allows you to round corners.In this case, we've rounded all corners 50%,which creates a circle. Experiment with this property.*/
+	width: 40%;
+	height: auto;
+	padding-top: 40%;
+	box-shadow: -10px -5px 50px 15px rgba(246, 241, 213, 0.5);
+	cursor: crosshair;
+	transition-duration: 2s;
+	/* box shadow can help add detail to elements. the values are: 
+    • offset of x-axis, 
+    • offset of y-axis 
+    • blur radius
+    • spread radius
+    • color
+    you need to include all of these properties in order for the shadow to work, play with the values until you are satisfied with the results.*/
+}
+
+/* PART ONE due 3/20 */
+
+/* 1.position the stars wherever you want by using absolute positioning. Let's get into the habit of using % instead of pixels - also, resize them as you see fit*/
+
+/* 2. Add a hover effect for each star using:
+transform: scale()
+transform: skew()
+transform: translate()
+transform: rotate() */
+
+/* 3. Now, if we want to slow those transform properties down we can add a transition-duration to each base or normal styling, go ahead and do this - play with the timing until you are satisfied*/
+
+/* 4. you can add multiple transforms to each star, however, you must make them part of the same property in order for all of them to work. Add a second transform to each star*/
+
+/* 5. add a hover effect for the .circle - make the box-shadow move from one side of the moon to the other and give it a duration of 2 seconds
+hint: adjust the first two value only if they are negative values to begin with, make them positive and see what happens
+*/
+
+/* 5. add more stars to the mix and experiment with placement and hover effects. */
+
+#starOne {
+	/* cursor: ;
+  width: ;
+  position: ;
+  top: ;
+  left:; 
+  transition-duration:;*/
+	cursor: help;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	width: 15%;
+	transition-duration: 5s;
+}
+
+#starTwo {
+	position: absolute;
+	top: 25%;
+	right: 15%;
+	width: 9%;
+	transition-duration: 10s;
+}
+
+#starThree {
+	position: absolute;
+	top: 29%;
+	right: 35%;
+	width: 16%;
+	transition-duration: 3s;
+}
+
+#starFour {
+	position: absolute;
+	top: 56%;
+	right: 14%;
+	width: 12%;
+	transition-duration: 7s;
+}
+
+#starFive {
+	position: absolute;
+	top: 67%;
+	left: 42%;
+	width: 10%;
+	transition-duration: 4s;
+}
+
+#starSix {
+	position: absolute;
+	top: 12%;
+	right: 9%;
+	width: 5%;
+	transition-duration: 5s;
+}
+
+#starOne:hover {
+	/* transform:; */
+	transform: translate(400px, 100px) rotate(900deg);
+}
+
+#starTwo:hover {
+	transform: skew(30deg, 75deg) translate(-1000px, -100px) rotate(900deg);
+}
+
+#starThree:hover {
+	transform: scale(2) rotate(900deg);
+}
+
+#starFour:hover {
+	transform: scale(-1.5) skew(20deg, 47deg) translate(10px, 10px) rotate(900deg);
+}
+
+#starFive:hover {
+	transform: scale(-1.5) rotate(-400deg);
+}
+
+#starSix:hover {
+	transform: skew(-24deg, -72deg) rotate(1000deg);
+}
+
+.circle:hover {
+	box-shadow: 10px 5px 50px 15px rgba(246, 241, 213, 0.5);
+}
+
+#start {
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+}
+
+a {
+	font-size: 1.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #0000ff;
+	margin: 2.5%;
+	padding: 2.5%;
+	letter-spacing: 0.15em;
+	color: white;
+	border: 1px solid white;
+	border-radius: 5px;
+	-webkit-border-radius:;
+	-moz-border-radius:;
+	-ms-border-radius:;
+	-o-border-radius:;
+}
+
+a:hover {
+	color: #0000ff;
+	border: 1px solid #0000ff;
+	background-color: white;
+}
+
+#start a:hover {
+	color: #0000ff;
+	border: 1px solid #0000ff;
+	background-color: white;
+}
