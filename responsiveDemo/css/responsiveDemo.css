@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+
+	/* how do we reset our css again? what are the three things we need to call out here? */
+}
+
+body {
+	height: 100%;
+	/* set min-height to what? */
+	width: 100%;
+	/* set width to what? */
+	background-color: lightblue;
+	/* margin: ?; */
+
+	font-size: 100%;
+}
+
+#topPage {
+	/* display: ?; */
+	/* what else? */
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#logo {
+	width: 10%;
+}
+
+#pagetitle {
+	background-color: rgb(0, 0, 255);
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	font-size: 3.25em;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 2.5em;
+}
+
+p {
+	font-size: 1.125em;
+}
+
+a {
+	color: chartreuse;
+}
+
+.bodytext {
+	padding-left: 25px;
+}
+
+/* --------styles--------------- */
+
+.directions {
+	background-color: blueviolet;
+	color: aquamarine;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+#viewport {
+	background-color: rgb(200, 255, 100);
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#viewportImage {
+	width: 25%;
+}
+
+#before,
+#after {
+	border: 1px solid black;
+	width: 25%;
+}
+
+#beforeAfter {
+	background-color: chartreuse;
+	/* display: ?*/
+	/* what else */
+	/* width: ? */
+
+	display: flex;
+	flex-direction: row;
+}
+
+#gifs {
+	background-color: coral;
+	/* display: ? */
+	/* what else */
+	/* what else */
+	width: 350px;
+	margin-bottom: 25px;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#leftgif,
+#centergif,
+#rightgif {
+	border: 1px solid black;
+}
+
+.gifsSize {
+	width: 325px;
+}
+
+.bodytext {
+	background-color: cyan;
+}
+
+#media {
+	background-color: hotpink;
+}
+
+.headernav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.headernav a {
+	color: #000000;
+	width: 140px;
+	margin: 5px 10px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	border: 2.5px solid #000000;
+	border-radius: 10px;
+
+	transition: transform 0.75s ease;
+}
+
+.headernav a:hover {
+	color: purple;
+	border: 2.5px solid purple;
+	transform: scale(0.95);
+}
+
+.cleardivider {
+	border: none;
+	height: 25px;
+	background-color: #00000000;
+	margin: 0px 120px;
+}
+
+.smallcleardivider {
+	border: none;
+	height: 10px;
+	background-color: #00000000;
+	margin: 0px 120px;
+}
+
+/* -------- media queries --------- */
+
+@media screen and (max-width: 900px) {
+	body {
+		font-size: 70%;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	#logo {
+		width: 20%;
+	}
+
+	#viewport img {
+		width: 100%;
+	}
+
+	#viewportImage {
+		width: 100%;
+	}
+
+	#beforeAfter {
+		flex-direction: row;
+	}
+
+	#beforeAfter img {
+		width: 100%;
+	}
+
+	#gifs {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	#media img {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		font-size: 50%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	#logo {
+		width: 25%;
+	}
+
+	#viewport img {
+		width: 100%;
+	}
+
+	#viewportImage {
+		width: 100%;
+	}
+
+	#beforeAfter {
+		flex-direction: row;
+	}
+
+	#beforeAfter img {
+		width: 100%;
+	}
+
+	#gifs {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	#media img {
+		width: 100%;
+	}
+}
